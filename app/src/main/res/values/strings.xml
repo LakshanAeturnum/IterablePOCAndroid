@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">IterableIntegration</string>
+    <string name="text_enter_email">Enter email</string>
+</resources>

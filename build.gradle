@@ -1,0 +1,21 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+
+buildscript {
+    ext {
+        firebase_core_version = '21.1.1'
+        firebase_messaging_version = '23.1.2'
+        iterable_version = '3.5.3'
+    }
+
+    dependencies {
+        //noinspection UseTomlInstead
+        classpath 'com.google.gms:google-services:4.4.2'
+    }
+}
+
+
+
+plugins {
+    alias(libs.plugins.android.application) apply false
+}
